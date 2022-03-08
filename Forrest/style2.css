@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(Images/back.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(3px);
+}
+.glass{
+    width: 1030px;
+    height: 620px;
+    box-shadow: 0 0 8px rgb(82, 82, 82);
+    background-image: url(Images/front.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+}
+nav{
+    display: flex;
+    padding: 30px 8%;
+}
+.logo{
+    font-size: 22px;
+    color: #fff;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    transition: 0.1s ease-out;
+}
+
+nav ul li:hover{
+    border-bottom: 2px solid #fff;
+    transition: 0.1s;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+}
+img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -7px;
+    transition: 0.1s ease;
+} 
+img:hover{
+    border: 2px solid #fff;
+}
+
+h3{
+    color: #fff;
+    margin: 80px 110px -25px;
+    margin-top: 120px;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+h1{
+    color: #fff;
+    margin: 0 110px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    font-size: 150px;
+    letter-spacing: 5px;
+    opacity: 0.6;
+    background-image: linear-gradient(45deg, #000, #fff, #000, #fff, #000);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.icons i{
+    color: #fff;
+}
+
+.icons{
+    display: flex;
+    margin-top: 120px;
+    margin-right: 100px;
+}
+.icons ul{
+    flex: 1;
+    text-align: right;
+}
+.icons ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+}
+.icons ul li i{
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.1s all;
+}
+.icons ul li i:hover{
+    color: aqua;
+}
+
+h2{
+    color: #fff;
+    margin: 0 110px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    letter-spacing: 10px;
+    opacity: 0.6;
+    background-image: linear-gradient(45deg, #000, #fff, #000, #fff, #000);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+p{
+     color: #fff;
+    margin: 0 180px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    opacity: 0.6;
+    
+}
+
+
+
+input{
+    padding: 8px;
+    margin-top: 8px;
+    margin-left: 400px;
+    width: 500px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button{
+    padding: 8px;
+    margin-top: 10px;
+    margin-left: 800px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(255, 174, 0);
+    transition: 0.2s;
+}
+
